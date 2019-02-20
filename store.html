@@ -72,71 +72,46 @@
     </header>
     <!-- header-end -->
     <!-- body -->
-    <div class="main-content container-fluid" id='top'>
-        <div class="banner">
-            <img id='banner' src="./src/assets/img/banner.png" alt="">
+    <div class="main-content container-fluid store" id='top'>
+        <div class="introduction-text">
+            <p class="gioi-thieu">
+                MUA HÀNG
+            </p>
         </div>
-        <div class="introduction container-fluid">
-            <div class="horizone-div container-fluid"></div>
-            <div class="container row">
-                <div class="video col-lg-7 col-md-12 animated fadeInLeft">
-                    <img src="./src/assets/img/video-bg.png" alt="" class="video-placeholder">
+        <div class="container mt-4">
+            <div id="map"></div>
+            <div class="address container row mt-4 mb-4">
+                <div class="col-md-4 mb-4">
+                    <p class="text-white">Chọn tỉnh thành</p>
+                    <select class='select-city'>
+                      <option value="all">Tất cả</option>
+                      <option value="hcm">Tp. Hồ Chí Minh</option>
+                      <option value="ha-noi">Hà Nội</option>
+                      <option value="da-nang">Đà Nẵng</option>
+                    </select>
                 </div>
-                <div class="col-lg-5 col-md-12 animated fadeInRight">
-                    <div class="card-top">
-                        <p>CUỘC PHIÊU LƯU THẦN THOẠI BẮT NGUỒN TỪ HIỆN THỰC</p>
+                <div class="col-md-8 store-container">
+                    <div class="store-location" data-city='hcm'>
+                        <h5>Cửa hàng Đồ chơi</h5>
+                        <p class="address-number">281 Lý Thường Kiệt, Quận 11</p>
+                        <p class="phone-number">F: <span>0999 567 890</span></p>
                     </div>
-                    <div class="card-bottom">
-                        <p>Sử Hộ Vương là một dự án trò chơi thẻ bài huyền sử Việt Nam – với cốt truyện được truyền cảm hứng từ những thần tích, truyền thuyết, những giai thoại hào hùng xuyên suốt dòng lịch sử hơn 4000 năm được kể lại dưới góc nhìn hiện đại, mang hơi thở tân tiến trẻ trung của thời đại mới. Tuy rằng ở thế giới của Sử Hộ Vương, các nhân vật hoàn toàn hư cấu, được lấy cảm hứng từ các thần tích, truyền thuyết, huyền sử Việt Nam. Nếu có “vô tình” giống với nhân vật nào thì đều là sự trùng hợp ngẫu nhiên. Nhưng với một cách tiếp cận mới, Sử Hộ Vương mang tham vọng sẽ trở thành một hình thức giải trí thú vị mà thông qua đó có thể tạo nên những cảm hứng bất tận cho giới trẻ, về những đề tài đang dần bị lãng quên trong nhịp sống hối hả ngày nay. </p>
+                    <div class="store-location" data-city='hcm'>
+                        <h5>Cửa hàng Pink Toy</h5>
+                        <p class="address-number">19 Phạm Viết Chánh, phường Nguyễn Cư Trinh, Quận 1</p>
+                        <p class="phone-number">F: <span>0999 567 890</span></p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="news row container">
-            <div class="news-card col-lg-6 col-md-12">
-                <div class="card-title">
-                    <p>Tin tức</p>
-                </div>
-                <div class="card-bottom">
-                    <div class="posts">
-                        <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
-                        <hr size='5'>
-                        <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
-                        <hr size='5'>
-                        <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
-                    </div>
-                    <div class="container" style='text-align:right'>
-                        <a class="btn btn-info more-btn text-white hover-zoom">XEM THÊM</a>
-                    </div>
-                </div>
-            </div>
-            <div class="news-card col-lg-6 col-md-12">
-                <div class="card-title">
-                    <p>FANPAGE</p>
-                </div>
-                <div class="card-bottom">
-                    <div class="facebook">
-                        <!-- <img src="./src/assets/img/fb-demo.png" alt=""> -->
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsuhovuong%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="container" style='text-align:right'>
-                        <a class="btn btn-info more-btn text-white hover-zoom">XEM THÊM</a>
+                    <div class="store-location" data-city='da-nang'>
+                        <h5>Cửa hàng Pink Toy 2</h5>
+                        <p class="address-number">261 Trần Hưng Đạo, Đà Nẵng</p>
+                        <p class="phone-number">F: <span>0999 567 890</span></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="side-bar">
-            <a href="#top" class="btn btn-info more-btn return-home hover-zoom">VỀ ĐẦU TRANG</a>
-            <div class="android download-link">
-                <img src="./src/assets/img/chplay.png" alt="">
-            </div>
-            <div class="ios download-link">
-                <img src="./src/assets/img/app-store.png" alt="">
-            </div>
-            <div class="qr-link">
-                <img src="./src/assets/img/qr.png" alt="" class='img-fluid'>
-            </div>
-        </div>
+        <!-- <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXmpxG9zcBU6kIoFKy1CcmTyTME02Cv_8&callback=initMap">
+        </script> -->
     </div>
     <!-- body-end -->
     <!-- footer -->
@@ -163,11 +138,14 @@
         </div>
     </footer>
     <!-- footer-end -->
+      
     <script src="./src/assets/js/jquery-2.1.3.min.js"></script>
     <script src="./src/assets/js/bootstrap.min.js"></script>
     <script src="./src/assets/js/jquery-3.3.1.slim.min.js"></script>
     <script src="./src/assets/js/popper.min.js"></script>
     <script src='./src/assets/js/main.js'></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXmpxG9zcBU6kIoFKy1CcmTyTME02Cv_8"
+  type="text/javascript"></script>
 </body>
 
 </html>

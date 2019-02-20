@@ -430,6 +430,23 @@ footer{
 .char-info-phung .card-bottom {
     margin-top: -40px;
 }
+/*end nhan vat*/
+
+/*begin rule*/
+.luatchoi{
+	height: auto;
+	min-height: 1000px;
+}
+#carousel-rules{
+	margin-bottom: 50px;
+}
+.img-rules {
+	text-align: center;
+}
+.img-rules img{
+	width: 65% !important;
+}
+/*end-rule*/
 
 /*news */
 .news-title, .post-title{
@@ -652,4 +669,31 @@ div#item-slider{
 .box-body{
 	color: white;
 	margin-bottom: 5px;
+}
+
+
+/*store*/
+.store{
+	height:auto;
+	min-height: 1000px;
+}
+#map{
+	width: 85%;
+	height:500px;
+	margin:10px auto;
+}
+.store-container{
+	height:300px;
+	overflow-y: scroll;
+}
+.store-location{
+	color:white;
+	margin-bottom:10px;
+	border-bottom: 1px solid #ffd540;
+}
+.store-location h5{
+	color:#ffd540;;
+}
+.store-hide{
+	display: none;
 }

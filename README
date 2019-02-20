@@ -1,2 +1,9 @@
 SHV files 
 Check update and changelog
+//change log:
+20-02-2019
+    - Update style.css, responsive.css
+    - Update main.js
+    - Add FAQ, luatchoi, store 
+    - Add 'rule' img folder
+    - on Homepage, replace facebook image with fb widget
